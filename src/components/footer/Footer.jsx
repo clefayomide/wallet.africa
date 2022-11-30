@@ -9,8 +9,10 @@ import Items from "./Items";
 
 const Footer = () => {
   return (
-    <Responsive classNames={"bg-[#0C0B0B] border-t-[0.1px] border-gray-[#FFFFFF]"}>
-      <footer className="2xl:w-[1500px] bg-[#0C0B0B] pt-8 pb-8 lg:pt-16 lg:pb-16">
+    <Responsive
+      classNames={"bg-[#0C0B0B] border-t-[0.1px] border-gray-600"}
+    >
+      <footer className="w-full 2xl:w-[1500px] bg-[#0C0B0B] pt-8 pb-8 lg:pt-16 lg:pb-16">
         <Pages classNames={"w-[87%]"}>
           <div className="flex-col md:flex-row gap-10 md:gap-0 flex justify-between">
             <div className="w-full md:w-[20%]">
